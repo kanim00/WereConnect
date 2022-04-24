@@ -121,7 +121,7 @@ insert into Feedback(CustomerID,Feedbackcomment,DateWritten) values ("0012","Gre
 
 
 #Queries code
-#Do writers with a lower certification (Bachelors) tend to have a higher plagiarism percentage? *order percent by descending with corresponding degree
+#Do writers with a lower certification (Bachelors) tend to have a higher plagiarism percentage? *order percen by descending with corresponding degree
 #select Essay_title from Essay order by Plag_percentage ASC limit 3,2;
 #select Essay_title from Writer where Highest_qualification="Bachelors";
 
